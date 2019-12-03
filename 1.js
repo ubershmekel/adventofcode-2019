@@ -99,6 +99,6 @@ y=`83568
 117643
 123410`
 
-f=(item) => Math.floor(+item / 3.0) - 2
+f = (item) => Math.floor(+item / 3.0) - 2
 
 console.log(y.split('\n').map((item) => f(+item)).reduce((a, b) => a + b, 0))
