@@ -11,6 +11,3 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: node *.js
-    - name: Run a multi-line script
-      run: |
-        node 1.js
